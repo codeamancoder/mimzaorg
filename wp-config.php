@@ -45,7 +45,7 @@ if(ENV === 'testing') {
 	define('DB_PASSWORD', '');
 } else {
 	define('DB_NAME', 'srkn_mimoza_db123');
-	define('DB_PASSWORD', 'Xy2ntmWq');
+	define('DB_PASSWORD', 'Dt9PhBpe');
 }
 
 /** MySQL sunucusu */
