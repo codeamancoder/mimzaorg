@@ -52,7 +52,7 @@ if(ENV === 'testing') {
 define('DB_HOST', 'localhost');
 
 /** Yaratılacak tablolar için veritabanı karakter seti. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** Veritabanı karşılaştırma tipi. Herhangi bir şüpheniz varsa bu değeri değiştirmeyin. */
 define('DB_COLLATE', '');
