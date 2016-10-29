@@ -34,7 +34,7 @@ if (strpos($domain, '.local') !== FALSE) {
 
 
 /** MySQL veritabanı kullanıcısı */
-define('DB_USER', 'srkn_mimozou');
+define('DB_USER', 'srkn_mimozau');
 
 /** MySQL veritabanı parolası */
 if(ENV === 'testing') {
