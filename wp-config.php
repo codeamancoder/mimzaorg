@@ -34,7 +34,7 @@ if (strpos($domain, '.local') !== FALSE) {
 
 
 /** MySQL veritabanı kullanıcısı */
-define('DB_USER', 'root');
+define('DB_USER', 'srkn_mimozou');
 
 /** MySQL veritabanı parolası */
 if(ENV === 'testing') {
@@ -44,8 +44,8 @@ if(ENV === 'testing') {
 	define('DB_NAME', 'mimoza_db');
 	define('DB_PASSWORD', '');
 } else {
-	define('DB_NAME', 'mimoza_db_prod');
-	define('DB_PASSWORD', 'srknkc31');
+	define('DB_NAME', 'srkn_mimoza_db123');
+	define('DB_PASSWORD', 'Xy2ntmWq');
 }
 
 /** MySQL sunucusu */
