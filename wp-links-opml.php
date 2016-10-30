@@ -1,16 +1,4 @@
 <?php
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Outputs the OPML XML format for getting the links defined in the link
  * administration. This can be used to export links from one blog over to
@@ -34,7 +22,7 @@ if ( !empty($_GET['link_cat']) ) {
 		$link_cat = absint( (string)urldecode($link_cat) );
 }
 
-echo '<?phpxml version="1.0"?'.">\n";
+echo '<?xml version="1.0"?'.">\n";
 ?>
 <opml version="1.0">
 	<head>

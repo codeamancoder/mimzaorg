@@ -1,17 +1,5 @@
 <?php
 
-
-
-
-
-
-
-
-
-
-
-
-
 /** Sets up the WordPress Environment. */
 require( dirname(__FILE__) . '/wp-load.php' );
 
