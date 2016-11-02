@@ -207,7 +207,7 @@ function initXedit() {
 function isInternalLink(link) {
   var longHref = link.href;
   var root = location.protocol + '//' + location.host;
-  return longHref.indexOf(root) >= 0;
+  return longHref.indexOf(root) >= 0 && !longHref.match(/[?&]target=/);
 }
 
 function rewritePhpExt(url) {
@@ -334,10 +334,20 @@ function docReady() {
     }).show().dataTable({
       pageLength: pageLength,
       "aaSorting": []
+    }).on( 'draw.dt', function () {
+      if (isInWP) {
+        $(this).find('a').not("#standAloneMode, #shop, .popup, .endpoint")
+                .each(rewriteHref);
+      }
     });
     $('.data-table-longer').show().dataTable({
       pageLength: 20,
       aaSorting: []
+    }).on( 'draw.dt', function () {
+      if (isInWP) {
+        $(this).find('a').not("#standAloneMode, #shop, .popup, .endpoint")
+                .each(rewriteHref);
+      }
     });
   }
 
@@ -578,6 +588,14 @@ function validate_url(s) {
   }
 }
 
+function validate_filename(s) {
+  var invalid=/^[^\\/:\*\?"<>\| ]+$/;
+  var ext = s.replace(/^.*\./, '');
+  if (ext === s || !invalid.test(s)) {
+    return "Please use the format file-name.ext. No spaces. Do not forget the right extension.";
+  }
+}
+
 var validate = {
   email: function (s) {
     return validate_email(s);
@@ -593,5 +611,8 @@ var validate = {
   },
   url: function (s) {
     return validate_url(s);
+  },
+  filename: function (s) {
+    return validate_filename(s);
   }
 };

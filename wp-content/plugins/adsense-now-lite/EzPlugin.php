@@ -44,7 +44,13 @@ if (!class_exists("EzPlugin")) {
           $siteUrl = site_url();
         }
       }
-      if (function_exists('wp_get_sites')) {
+      if (function_exists('get_sites')) {
+        $info = get_sites();
+        if (!empty($info[1]) && $info[1]->path == "/") {
+          $siteUrl = site_url();
+        }
+      }
+      else if (function_exists('wp_get_sites')) {
         $info = wp_get_sites();
         if (!empty($info[1]) && $info[1]['path'] == "/") {
           $siteUrl = site_url();

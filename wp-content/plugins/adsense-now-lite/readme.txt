@@ -3,8 +3,8 @@ Contributors: manojtd
 Donate link: http://buy.thulasidas.com/adsense-now
 Tags: adsense, google adsense, ads, advertising, google, adsense plugin
 Requires at least: 2.5
-Tested up to: 4.5
-Stable tag: 6.00
+Tested up to: 4.6
+Stable tag: 6.10
 License: GPL2 or later
 
 Now! Plugin for AdSense gets you started with Google AdSense. No mess, no fuss. Simplest Google AdSense plugin.
@@ -13,11 +13,16 @@ Now! Plugin for AdSense gets you started with Google AdSense. No mess, no fuss. 
 
 Now! Plugin for AdSense is the simplest possible way to generate revenue from your blog using Google AdSense. Aiming at simplicity, Now! Plugin for AdSense does only one thing: it puts your AdSense code in up to three spots in your posts and pages (both existing ones and those yet to be written). The admin interface of this plugin uses a highly functional and modern interface based on the twitter bootstrap framework with generous, context-sensitive help on every single option.
 
+> <strong>Sunset Edition</strong><br>
+> This update of the plugin is the last publicly released version. We do not expect to make any serious changes or add new features to it from now on.
+>
+> We may not always be able to provide prompt support for this plugin on the WordPress.org forums. If you would like to have professional support or extra/custom features, consider buying the [Pro version](http://buy.thulasidas.com/adsense-now "Pro version of the Now! Plugin for AdSense plugin for only $6.95")
+
 If you have multiple blogs or websites where you would like your ads to appear, you may want to try [Ads EZ](http://www.thulasidas.com/ads-ez "Personal Ad Server") - a personal ad server fully compatible with this plugin. It is also available in the WordPress plugin directory.
 
-= Live Demo =
-
-*AdSense Now! admin interface is feature-rich, user-friendly and functional. Please visit this fully operational* **[live demo site](http://demo.thulasidas.com/adsense-now "Play with Easy AdSense Admin Interface")** *to see what it can do for you.*
+> <strong>Live Demo</strong>
+>
+> AdSense Now! admin interface is feature-rich, user-friendly and functional. Please visit this fully operational live demo site](http://demo.thulasidas.com/adsense-now "Play with Easy AdSense Admin Interface") to see what it can do for you.
 
  **Now available in your language using Google Translate.**
 
@@ -51,7 +56,7 @@ Now! Plugin for AdSense is the freely distributed version of a premium plugin. T
 
 == Upgrade Notice ==
 
-Compatibility with WP4.5.
+Compatibility with WP4.6. Many accumulated fixes and changes. Releasing the sunset version.
 
 == Screenshots ==
 
@@ -155,6 +160,7 @@ Note that it is only your own webserver that needs direct access to the PHP file
 
 == Change Log ==
 
+* V6.10: Compatibility with WP4.6. Many accumulated fixes and changes. Releasing the sunset version. [Oct 12, 2016]
 * V6.00: Compatibility with WP4.5. [Apr 12, 2016]
 * V5.97: Improvements in the Google Translator interface. Compatibility with multisite installaton of subdomain type. [Feb 28, 2016]
 * V5.96: Minor interface and documentation changes. [Feb 25, 2016]
