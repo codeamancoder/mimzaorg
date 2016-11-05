@@ -1,4 +1,5 @@
 <?php
+
 /**
  * WordPress için taban ayar dosyası.
  *
