@@ -107,18 +107,6 @@ $isUltra = $plgMode == 'google-adsense-ultra';
         content: "<strong>Welcome to <?php echo $plgName; ?></strong><br> When you first visit your <?php echo $plgName; ?> Admin interface, you will find yourself in the Dashboard. Depending on the version of our plugin, you may see informational messages, statistics etc. on this page."
       });
       tour.addStep({
-        element: "#update",
-        placement: "left",
-        title: "Updates and Upgrades",
-        content: "If you would like to check for regular updates, or install a purchased module or Pro upgrade, visit the update page by clicking this button."
-      });
-      tour.addStep({
-        element: "#standAloneMode",
-        placement: "left",
-        title: "Standalone Mode",
-        content: "Open <?php echo $plgName; ?> Admin in a new window independent of WordPress admin interface. The standalone mode still uses WP authentication, and cannot be accessed unless logged in."
-      });
-      tour.addStep({
         element: "#tour",
         placement: "right",
         title: "Tour",

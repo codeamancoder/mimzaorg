@@ -26,7 +26,7 @@ class US_Widget_Login extends US_Widget {
 		}
 		if ( is_user_logged_in() ) {
 			global $current_user;
-			get_currentuserinfo();
+			wp_get_current_user();
 
 			$output = '<div class="w-profile">';
 			$output .= '<a class="w-profile-link for_user" href="' . esc_attr( admin_url( 'profile.php' ) ) . '">';

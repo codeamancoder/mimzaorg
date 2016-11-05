@@ -1082,7 +1082,7 @@
 
 // Get users data
 global $current_user;
-get_currentuserinfo();
+wp_get_current_user();
 
 if(get_user_meta($current_user->ID, 'layerslider_builder_help_wp_pointer', true) != '1') {
 add_user_meta($current_user->ID, 'layerslider_builder_help_wp_pointer', '1'); ?>

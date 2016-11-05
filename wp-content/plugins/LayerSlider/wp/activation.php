@@ -147,7 +147,7 @@ function layerslider_deactivation_scripts() {
 
 	// Stuff we need
 	global $current_user;
-	get_currentuserinfo();
+	wp_get_current_user();
 
 	// Remove capability option, so a user can restore
 	// his access to the plugin if set the wrong capability
