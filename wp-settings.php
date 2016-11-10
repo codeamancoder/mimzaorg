@@ -309,7 +309,7 @@ wp_magic_quotes();
 do_action( 'sanitize_comment_cookies' );
 
 /**
- * Wor*/include /*dPress Query object
+ * WordPress Query object
  * @global WP_Query $wp_the_query
  * @since 2.0.0
  */
