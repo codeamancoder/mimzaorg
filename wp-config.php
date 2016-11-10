@@ -2,7 +2,6 @@
 
 /**
  * WordPress için taban ayar dosyası.
- *
  * Bu dosya şu ayarları içerir: MySQL ayarları, tablo öneki,
  * gizli anahtaralr ve ABSPATH. Daha fazla bilgi için 
  * {@link https://codex.wordpress.org/Editing_wp-config.php wp-config.php düzenleme}
@@ -92,7 +91,7 @@ $table_prefix  = 'wp_';
  * Tema ve eklenti geliştiricilerinin geliştirme aşamasında WP_DEBUG
  * kullanmalarını önemle tavsiye ederiz.
  */
-define('WP_DEBUG', false); 
+define('WP_DEBUG', true); 
 
 /* Hepsi bu kadar. Mutlu bloglamalar! */
 
