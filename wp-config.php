@@ -91,7 +91,7 @@ $table_prefix  = 'wp_';
  * Tema ve eklenti geliştiricilerinin geliştirme aşamasında WP_DEBUG
  * kullanmalarını önemle tavsiye ederiz.
  */
-define('WP_DEBUG', true); 
+define('WP_DEBUG', false); 
 
 /* Hepsi bu kadar. Mutlu bloglamalar! */
 
