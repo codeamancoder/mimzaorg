@@ -84,7 +84,7 @@ define('NONCE_SALT',       'F;B*8-HE_^#t~0 VKDbs|u;2Y$,>^4JW|zPi6lQp~$h@cqVHcI]i
  * Tüm kurulumlara ayrı bir önek vererek bir veritabanına birden fazla kurulum yapabilirsiniz.
  * Sadece rakamlar, harfler ve alt çizgi lütfen.
  */
-$table_prefix  = 'mbxot_';
+$table_prefix  = 'wp_';
 
 /**
  * Geliştiriciler için: WordPress hata ayıklama modu.
